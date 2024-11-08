@@ -1,0 +1,14 @@
+{
+  "printWidth": 120,
+  "singleQuote": true,
+  "plugins": ["@trivago/prettier-plugin-sort-imports"],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true,
+  "importOrderGroupNamespaceSpecifiers": true,
+  "importOrder": [
+    "<THIRD_PARTY_MODULES>",
+    "^[./](?!.*\\.(types|css|scss|svg\\?react)$).*",
+    "^[./].*/(.*)\\.(types)$",
+    "^[./].*/(.*)\\.(css|scss|svg\\?react)$"
+  ]
+}
